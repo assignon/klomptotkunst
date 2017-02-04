@@ -1,0 +1,465 @@
+
+#userParameter
+{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  z-index: 8;
+  margin-bottom: -500px;
+  position: relative;
+  bottom: 500px;
+
+}
+
+
+#userParameter form
+{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: auto;
+   height: auto;
+   border: 1px solid #00BCD4;
+   border-radius: 3px;
+   padding: 20px;
+   background-color: whitesmoke;
+   z-index: 8;
+   position: relative;
+
+}
+
+.icon-cancel-circle
+{
+
+   font-size: 30px;
+   cursor: pointer;
+
+}
+
+.icon-cancel-circle:hover
+{
+
+   color: #F91535;
+
+}
+
+#imgFile
+{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+
+#avatarImgData
+{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+
+}
+
+
+
+#avatarImgData img
+{
+
+   width: 150px;
+   height: 150px;
+   border: 1px solid #009688;
+   border-radius: 100%;
+   background-color: #009688;
+
+}
+
+
+#avatarImgData input
+{
+
+   width: 40px;
+   height: 40px;
+   border: 1px solid white;
+   border-radius: 100%;
+   background-color: white;
+   position: relative;
+   top: 40px;
+   right: 30px;
+   cursor: pointer;
+
+}
+
+
+#avatarTextData
+{
+
+   width: aauto;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;;
+   align-items: flex-start;;
+
+}
+
+
+#avatarTextData p
+{
+
+   text-align: left;
+   font-size: 18px;
+
+}
+
+
+#userInputs
+{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: auto;
+   height: auto;
+   margin-top: 25px;
+
+}
+
+
+#userInputs p
+{
+
+    text-align: center;
+    font-size: 18px;
+
+}
+
+
+
+#updateInput
+{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+
+}
+
+
+#userInputs input
+{
+
+  border: 1px solid #00BCD4;
+  border-radius: 3px;
+  font-size: 18px;
+  background-color: white;
+  padding-left: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+
+#updateInput input
+{
+
+    width: 300px;
+    height: 35px;
+    border: 1px solid #00BCD4;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: white;
+    padding-left: 15px;
+
+}
+
+
+#yourpass
+{
+
+   width: 980px;
+   height: 40px;
+
+}
+
+
+#userInputs input[type="submit"]
+{
+
+   background-color: #00BCD4;
+   color: white;
+   text-align: center;
+   width: 1000px;
+   height: 40px;
+   cursor: pointer;
+
+}
+
+
+#userInputs input[type="submit"]:hover
+{
+
+   color: #00BCD4;
+   background-color: white;
+
+}
+
+
+#parameterIcon
+{
+
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #00BCD4;
+   background-color: whitesmoke;
+   padding: 15px;
+   position: relative;
+   bottom: 128px;
+   left: 37px;
+
+}
+
+
+#parameterIcon span
+{
+
+  font-size: 35px;
+  color: #304057;
+
+}
+
+
+#parameterIcon span:hover
+{
+
+   color: #F91535;
+
+}
+
+.icon_text
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+
+.icon_text p
+{
+
+  text-align: center;
+  font-size: 17px;
+  position: relative;
+  bottom: 10px;
+  margin-bottom: -10px;
+  color: #304057;
+
+}
+
+#menu
+{
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #009688;
+
+}
+
+#menus
+{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #009688;
+    margin-left: 30px;
+
+}
+
+
+#menu a
+{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    margin-right: 45px;
+    margin-left: 45px;
+
+
+
+}
+
+
+#menu a img
+{
+
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100%;
+
+}
+
+#menu a img:hover
+{
+
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  position: relative;
+  top: 6px;
+
+}
+
+#agenda
+{
+
+  width: 10px;
+  height: 10px;
+  background-color: red;
+
+
+}
+
+#menu a p
+{
+
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+
+}
+
+
+#menu a p:hover
+{
+
+  color: #00BCD4;
+
+}
+
+#logMail
+{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-left: 400px;
+
+}
+
+
+
+
+#mailIcon
+{
+
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+
+
+#mails
+{
+
+    text-align: center;
+    color: white;
+
+}
+
+#adminAvatar
+{
+
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 0px;
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+
+
+#parames
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-left: 900px;
+    margin-top: -400px;
+    margin-bottom: -200px;
+
+
+}
+
+
+.options
+{
+
+    width: 250px;
+    height: 150px;
+    border: 1px solid #009688;
+    border-radius: 2px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow: auto;
+
+}

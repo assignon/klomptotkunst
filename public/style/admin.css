@@ -1,0 +1,2059 @@
+body, html
+{
+
+  margin: 0px;
+    padding: 0px;
+    background-color: #304057;
+
+
+}
+
+
+#messageBox
+{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 500px;
+   height: auto;
+   padding: 10px;
+   border: 1px solid #00BCD4;
+   border-radius: 3px;
+   background-color: whitesmoke;
+   margin: auto;
+   margin-bottom: -500px;
+   position: relative;
+   bottom: 600px;
+
+}
+
+
+#mailBoxTitel
+{
+
+    text-align: center;
+    font-size: 18px;
+    width: 500px;
+    height: 30px;
+    color: white;
+    background-color: #32323A;
+    position: relative;
+    bottom: 28px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+#messageBox input, #receiverAdress
+{
+
+  width: 500px;
+  height: 30px;
+  border: 1px solid #00BCD4;
+  border-radius: 3px;
+  text-align: center;
+  color: #00BCD4;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+
+#messageBox textarea
+{
+
+  width: 500px;
+  height: 150px;
+  border: 1px solid #00BCD4;
+  border-radius: 3px;
+  text-align: center;
+  color: #00BCD4;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+
+#receiverAdress
+{
+
+ padding-top: 5px;
+ background-color: white;
+
+}
+
+
+#messageBox input[type="submit"]
+{
+
+   background: #00BCD4;
+   color: white;
+   cursor: pointer;
+
+}
+
+
+#messageBox input[type="submit"]:hover
+{
+
+   background: white;
+   color: #00BCD4;
+
+}
+
+
+#explication
+{
+
+   text-align: center;
+   color: #00BCD4;
+   font-size: 18px;
+   width: auto;
+   height: auto;
+   width: 400px;
+   height: auto;
+
+}
+
+
+#sendMethod
+{
+
+   width: 300px;
+   height: auto;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #009688;
+   background-color: #009688;
+   border-radius: 3px;
+   flex-wrap: wrap;
+   padding: 20px;
+   margin: auto;
+   margin-bottom: -200px;
+   position: relative;
+   left: 350px;
+   bottom: 270px;
+   z-index: 6px;
+
+}
+
+
+.mailSendMethods
+{
+
+      margin-left: 20px;
+      padding: 20px;
+
+
+}
+
+
+#methods
+{
+
+   color: white;
+
+}
+
+
+.medhodsName
+{
+
+   position: relative;
+   right: 20px;
+   margin-left: 20px;
+   color: white;
+
+}
+
+#dashContainer
+{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+
+
+}
+
+
+#iconBar
+{
+
+  width: 5.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #304057;
+  padding-top: 30px;
+  position: relative;
+    right: 3px;
+  overflow: hidden;
+
+}
+
+
+#bigIconBar
+{
+
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 100%;
+  background-color: white;
+  cursor: pointer;
+
+}
+
+
+#iconBar a
+{
+
+   width: 55px;
+   height: 55px;
+   text-align: center;
+   text-decoration: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   margin-left: 13px;
+    background-color: #32323A;
+    border-radius: 3px;
+    margin-bottom: 15px;
+
+}
+
+
+
+
+/*#iconBar a img
+{
+
+   width: 45px;
+   height: 45px;
+   border: 1px solid #32323A;
+   border-radius: 3px;
+    position: relative;
+    left: 5px;
+
+
+}
+
+
+#iconBar a img:hover
+{
+
+  width: 35px;
+  height: 35px;
+ /* margin-bottom: 17px;
+  margin-top: 17px;
+  margin-left: 2px;
+
+}*/
+
+
+#iconBar a p
+{
+
+   text-align: center;
+   font-size: 18px;
+   color: white;
+   margin-top: 15px;
+   position: relative;
+   left: 10px;
+   background-color: #32323A;
+   border: 1px solid #32323A;
+   border-radius: 3px;
+   padding: 11px;
+   width: 95px;
+   margin-left: -200px;
+
+}
+
+
+#contentContainer
+{
+
+  width: 100%;
+  height: auto;
+  background-color: #32323A;
+
+}
+
+
+
+#notification
+{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+}
+
+
+
+#notification div
+{
+
+  width: 22%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 20px;
+
+
+}
+
+
+#notification div h1, h2
+{
+
+   text-align: center;
+   color: white;
+   position: relative;
+   z-index: 1;
+
+}
+
+#notification div h2
+{
+
+   top: 10px;
+
+}
+
+
+#notification div h1
+{
+
+   bottom: 20px;
+
+}
+
+
+#notification div:first-child
+{
+
+  background-color: #009688;
+  border: 1px solid #009688;
+  border-radius: 3px;
+
+}
+
+
+#notification div:nth-child(2)
+{
+
+  background-color: #00D636;
+  border: 1px solid #00D636;
+  border-radius: 3px;
+
+}
+
+
+
+#notification div:nth-child(3)
+{
+
+  background-color: #F91535;
+  border: 1px solid #F91535;
+  border-radius: 3px;
+
+}
+
+
+
+#notification div:nth-child(4)
+{
+
+  background-color: #00BCD4;
+  border: 1px solid #00BCD4;
+  border-radius: 3px;
+
+}
+
+
+#searchForm
+{
+
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+   position: relative;
+   top: 20px;
+   right: 15px;
+
+}
+
+
+#searchForm p
+{
+
+   color: white;
+   font-size: 18px;
+   margin-left: 20px;
+   margin-right: 10px;
+
+}
+
+#searchForm input[type="search"]
+{
+
+   width: 600px;
+   height: 40px;
+   border: 1px solid #00BCD4;
+   border-radius: 3px;
+   padding-left: 20px;
+   font-size: 18px;
+   margin-left: 20px;
+   background-color: #304057;
+   color: white;
+
+}
+
+
+#searchForm input[type="radio"]
+{
+
+  margin-left: 20px;
+  margin-right: 17px;
+  position: relative;
+  left: 15px;
+  cursor: pointer;
+
+}
+
+
+#resultContainer
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+
+
+}
+
+
+
+#subscriptionDisplay
+{
+
+   width: 55%;
+   height: auto;
+   padding: 20px;
+   border: 5px solid white;
+   border-radius: 3px;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+
+}
+
+
+
+#subscriptionParts
+{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 37%;
+  height: auto;
+  margin-left: 20px;
+
+}
+
+
+
+.partsInfos
+{
+
+   width: 200px;
+   height: 130px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid white;
+   padding-left: 8px;
+   padding-right: 8px;
+   margin: 8px;
+   border-radius: 3px;
+
+}
+
+
+
+.partsInfos p
+{
+
+   width: 100%;
+   height: auto;
+   text-align: center;
+   color: white;
+
+}
+
+
+.partsInfos form
+{
+
+  width: 200px;
+  height: 50%;
+  display: flex;
+     flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.partsInfos form input
+{
+
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid white;
+  background: white;
+  border-radius: 3px;
+  text-align: center;
+
+
+}
+
+
+#partsAccept
+{
+
+  background-color: #00D636;
+  border: 1px solid #00D636;
+
+}
+
+
+#partsRefuse
+{
+
+  background-color: #F91535;
+  border: 1px solid #F91535;
+
+}
+
+
+#partsWait
+{
+
+  background-color: #00BCD4;
+  border: 1px solid #00BCD4;
+
+}
+
+
+#partsNew
+{
+
+  background-color: #009688;
+  border: 1px solid #009688;
+
+}
+
+
+.subscriptionCont
+{
+
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+
+}
+
+
+.subscription
+{
+
+  width: 170px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid #009688;
+  border-radius: 100%;
+  background-color: #009688;*/
+  background-image: url(../images/menuIcons/communityImg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+
+}
+
+
+.subscription:hover
+{
+
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 45px;
+
+}
+
+
+
+.subscription h3,h4
+{
+
+  text-align: center;
+  color: #009688;
+  position: relative;
+  top: 70px;
+
+}
+
+
+.partsData
+{
+
+  width: 100%;
+  height: 300px;
+  background-color:  #304057;
+  border: 1px solid #304057;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+
+.notificationIcons
+{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+
+}
+
+
+.communityNotification
+{
+
+  text-align: center;
+  width: 80%;
+  height: auto;
+  color: #32323A;
+  font-size: 20px;
+
+
+}
+
+
+#datas
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    position: relative;
+    top: 15px;
+
+}
+
+
+#communitiesData
+{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+  height: auto;
+
+
+}
+
+
+#datas form
+{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: auto;
+   height: auto;
+   margin-top: 15px;
+
+}
+
+
+#datas form input
+{
+
+   width: 100px;
+   height: 40px;
+   border-radius: 3px;
+   text-align: center;
+   color: white;
+   margin-bottom: 15px;
+   position: relative;
+   top: 40px;
+   right: 10px;
+   cursor: pointer;
+
+}
+
+
+
+
+#datas form input:nth-child(1)
+{
+
+   background: #00D636;
+   border: 1px solid #00D636;
+
+}
+
+
+#datas form input:nth-child(1):hover
+{
+
+   background-color: #304057;
+
+}
+
+
+#datas form input:nth-child(2)
+{
+
+   background: #F91535;
+   border: 1px solid #F91535;
+
+}
+
+#datas form input:nth-child(2):hover
+{
+
+   background-color: #304057;
+
+}
+
+
+
+#datas form input:nth-child(3)
+{
+
+   background: #00BCD4;
+   border: 1px solid #00BCD4;
+
+}
+
+
+.dataContainer
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    margin-bottom: -26px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+
+}
+
+
+.dataContainer p
+{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+
+.dataContainer a
+{
+
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.dataContainer a h3:hover
+{
+
+  color: #00BCD4;
+
+}
+
+
+.dataContainer a p
+{
+
+ color: black;
+ margin-left: 5px;
+
+}
+
+
+.subcriptionInfos
+{
+
+   width: auto;
+   height: auto;
+   text-align: left;
+   color: white;
+    font-size: 20px;
+    margin-left: 10px;
+
+
+
+}
+
+
+.subscriptionDataForm
+{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+
+}
+
+
+.subscriptionDataForm input
+{
+
+   width: 150px;
+   height: 35px;
+   color: white;
+   text-align: center;
+   background-color: #009688;
+   border: 1px solid #009688;
+   border-radius: 3px;
+   cursor: pointer;
+   font-size: 18px;
+
+}
+
+
+
+
+.subscriptionDataForm input:hover
+{
+
+   background: white;
+   color: #009688;
+
+}
+
+/*************************************************************************************************************************/
+/************************************* ACCEPTED REQUEST STYLE*************************************************************/
+/**************************************************************************************************************************/
+
+
+
+#accepted_datas
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    position: relative;
+    top: 15px;
+
+}
+
+
+#accepted_communitiesData
+{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+  height: auto;
+
+
+}
+
+
+#accepted_datas form
+{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: auto;
+   height: auto;
+   margin-top: 25px;
+
+}
+
+
+#accepted_datas form input
+{
+
+   width: 100px;
+   height: 40px;
+   border-radius: 3px;
+   text-align: center;
+   color: white;
+   margin-bottom: 15px;
+   position: relative;
+   top: 40px;
+   right: 10px;
+   cursor: pointer;
+
+}
+
+
+
+
+#accepted_datas form input:nth-child(1)
+{
+
+   background: #F91535;
+   border: 1px solid #F91535;
+
+}
+
+
+#accepted_datas form input:nth-child(1):hover
+{
+
+     background-color: #304057;
+
+}
+
+
+#accepted_datas form input:nth-child(2)
+{
+
+   background: #00BCD4;
+   border: 1px solid #00BCD4;
+
+}
+
+
+#accepted_datas form input:nth-child(2):hover
+{
+
+     background-color: #304057;
+
+}
+
+
+.accepted_dataContainer
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    margin-bottom: -26px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+
+}
+
+
+.accepted_dataContainer p
+{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+
+.accepted_dataContainer a
+{
+
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.accepted_dataContainer a h3:hover
+{
+
+  color: #00BCD4;
+
+}
+
+
+.accepted_dataContainer a p
+{
+
+ color: black;
+ margin-left: 5px;
+
+}
+
+
+.accepted_subcriptionInfos
+{
+
+   width: auto;
+   height: auto;
+   text-align: left;
+   color: white;
+    font-size: 20px;
+    margin-left: 10px;
+
+
+
+}
+/***********************************************************************************************************************************************/
+/********************************************REFUSED DATA REQUEST********************************************************************************************/
+
+
+#refused_datas
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    position: relative;
+    top: 15px;
+
+}
+
+
+#refused_communitiesData
+{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+  height: auto;
+
+
+}
+
+
+#refused_datas form
+{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: auto;
+   height: auto;
+   margin-top: 25px;
+
+}
+
+
+#refused_datas form input
+{
+
+   width: 100px;
+   height: 40px;
+   border-radius: 3px;
+   text-align: center;
+   color: white;
+   margin-bottom: 15px;
+   position: relative;
+   top: 40px;
+   right: 10px;
+   cursor: pointer;
+
+}
+
+
+
+#refused_datas form input:nth-child(1)
+{
+
+   background: #00D636;
+   border: 1px solid #00D636;
+
+}
+
+
+#refused_datas form input:nth-child(1):hover
+{
+
+     background-color: #304057;
+
+}
+
+
+#refused_datas form input:nth-child(2)
+{
+
+   background: #00BCD4;
+   border: 1px solid #00BCD4;
+
+}
+
+
+.refused_dataContainer
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    margin-bottom: -26px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+
+}
+
+
+.refused_dataContainer p
+{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+
+.refused_dataContainer a
+{
+
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.refused_dataContainer a h3:hover
+{
+
+  color: #00BCD4;
+
+}
+
+
+.refused_dataContainer a p
+{
+
+ color: black;
+ margin-left: 5px;
+
+}
+
+
+.refused_subcriptionInfos
+{
+
+   width: auto;
+   height: auto;
+   text-align: left;
+   color: white;
+    font-size: 20px;
+    margin-left: 10px;
+
+
+
+}
+
+
+/*****************************************************************************************************************************************/
+/*********************************WAITING DATA REQUEST***********************************************************************************************/
+
+#waiting_datas
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    position: relative;
+    top: 15px;
+
+}
+
+
+#waiting_communitiesData
+{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+  height: auto;
+
+
+}
+
+
+#waiting_datas form
+{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: auto;
+   height: auto;
+   margin-top: 25px;
+
+}
+
+
+#waiting_datas form input
+{
+
+   width: 100px;
+   height: 40px;
+   border-radius: 3px;
+   text-align: center;
+   color: white;
+   margin-bottom: 15px;
+   position: relative;
+   top: 40px;
+   right: 10px;
+   cursor: pointer;
+
+}
+
+
+
+
+#waiting_datas form input:nth-child(1)
+{
+
+   background: #00D636;
+   border: 1px solid #00D636;
+
+}
+
+
+
+ #waiting_datas form input:nth-child(1):hover
+ {
+
+      background-color: #304057;
+
+ }
+
+
+#waiting_datas form input:nth-child(2)
+{
+
+   background: #F91535;
+   border: 1px solid #F91535;
+
+}
+
+
+#waiting_datas form input:nth-child(2):hover
+{
+
+     background-color: #304057;
+
+}
+
+
+.waiting_dataContainer
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    margin-bottom: -26px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+
+}
+
+
+.waiting_dataContainer p
+{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+
+.waiting_dataContainer a
+{
+
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.waiting_dataContainer a h3:hover
+{
+
+  color: #00BCD4;
+
+}
+
+
+.waiting_dataContainer a p
+{
+
+ color: black;
+ margin-left: 5px;
+
+}
+
+
+.waiting_subcriptionInfos
+{
+
+   width: auto;
+   height: auto;
+   text-align: left;
+   color: white;
+    font-size: 20px;
+    margin-left: 10px;
+
+
+
+}
+
+/**********************************************************************************************************************************************
+/***************************************TOTAL DATA REQUEST************************************************************************************/
+
+#request_datas
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    position: relative;
+    top: 15px;
+
+}
+
+
+#request_communitiesData
+{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+  height: auto;
+
+
+}
+
+
+#request_datas form
+{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: auto;
+   height: auto;
+   margin-top: 25px;
+
+}
+
+
+#request_datas form input
+{
+
+   width: 100px;
+   height: 40px;
+   border-radius: 3px;
+   text-align: center;
+   color: white;
+   margin-bottom: 15px;
+   position: relative;
+   top: 50px;
+   right: 10px;
+   cursor: pointer;
+
+}
+
+
+
+#request_datas form input:nth-child(1)
+{
+
+   background: #00D636;
+   border: 1px solid #00D636;
+
+}
+
+
+#request_datas form input:nth-child(1):hover
+{
+
+   background-color: #304057;
+
+}
+
+
+#request_datas form input:nth-child(2)
+{
+
+   background: #F91535;
+   border: 1px solid #F91535;
+
+}
+
+
+#request_datas form input:nth-child(2):hover
+{
+
+
+   background-color: #304057;
+
+}
+
+
+#request_datas form input:nth-child(3)
+{
+
+   background: #00BCD4;
+   border: 1px solid #00BCD4;
+
+}
+
+
+.request_dataContainer
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    margin-bottom: -26px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+
+}
+
+
+.request_dataContainer p
+{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+
+.request_dataContainer a
+{
+
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.request_dataContainer a h3:hover
+{
+
+  color: #00BCD4;
+
+}
+
+
+.request_dataContainer a p
+{
+
+ color: black;
+ margin-left: 5px;
+
+}
+
+
+.request_subcriptionInfos
+{
+
+   width: auto;
+   height: auto;
+   text-align: left;
+   color: white;
+    font-size: 20px;
+    margin-left: 10px;
+
+
+
+}
+
+
+/*********************************************************************************************************************************************/
+
+/***************************************************************************************/
+/*******************************ACCEPTED COMMUNITIES**********************************************/
+
+
+.acceptedComContainer
+{
+
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   border-radius: 3px;
+
+}
+
+.acceptedCom
+{
+
+   width: 170px;
+   height: 170px;
+  /* border: 1px solid #00E676;
+   border-radius: 100%;
+   background-color: #00E676;*/
+   background-image: url(../images/menuIcons/acceptCommunityImg.png);
+   cursor: pointer;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 30px;
+
+}
+
+
+.acceptedCom:hover
+{
+
+  width: 140px;
+  height: 140px;
+  background-size: contain;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 45px;
+
+}
+
+
+.acceptedCom p
+{
+
+   text-align: center;
+   color: #00E676;
+   font-size: 18px;
+   position: relative;
+   top: 130px;
+
+}
+
+
+/********************************************************************************************************/
+/****************************************REFUSED COMMUNITIES*****************************************************/
+
+.refusedComContainer
+{
+
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   border-radius: 3px;
+
+
+}
+
+.refusedCom
+{
+
+   width: 170px;
+   height: 170px;
+   /*border: 1px solid #F91535;
+   border-radius: 3px;
+   background-color: #F91535;*/
+   background-image: url(../images/menuIcons/refuseCommunityImg.png);
+   cursor: pointer;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 30px;
+
+}
+
+
+.refusedCom:hover
+{
+
+  width: 140px;
+  height: 140px;
+  background-size: contain;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 45px;
+
+}
+
+
+.refusedCom p
+{
+
+   text-align: center;
+   color: #F91535;
+   font-size: 18px;
+   position: relative;
+   top: 130px;
+
+}
+
+/**********************************************************************************************************/
+/***************************WAITING COMMUNITIES******************************************************************/
+
+.waitingComContainer
+{
+
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   border-radius: 3px;
+
+
+}
+
+.waitingCom
+{
+
+   width: 170px;
+   height: 170px;
+   /*border: 1px solid #00BCD4;
+   border-radius: 3px;
+   background-color: #00BCD4;*/
+   background-image: url(../images/menuIcons/bannenCommunityImg.png);
+   cursor: pointer;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 30px;
+
+}
+
+
+.waitingCom:hover
+{
+
+  width: 140px;
+  height: 140px;
+  background-size: contain;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 45px;
+
+}
+
+
+
+.waitingCom p
+{
+
+   text-align: center;
+   color: #00BCD4;
+   font-size: 18px;
+   position: relative;
+   top: 130px;
+
+}
+
+/***************************************************************************************************************************/
+/***********************************TOTAL COMMUNITIES************************************************************************/
+
+
+.newComContainer
+{
+
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   border-radius: 3px;
+
+
+}
+
+.newCom
+{
+
+   width: 170px;
+   height: 170px;
+  /* border: 1px solid #009688;
+   border-radius: 100%;
+   background-color: #009688;*/
+   background-image: url(../images/menuIcons/communityImg.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   cursor: pointer;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 30px;
+
+}
+
+
+.newCom:hover
+{
+
+  width: 140px;
+  height: 140px;
+  background-size: contain;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 45px;
+
+}
+
+
+
+.newCom p
+{
+
+   text-align: center;
+   color: #009688;
+   font-size: 18px;
+   position: relative;
+   top: 130px;
+
+}
+
+
+.wartNotification
+{
+
+  text-align: center;
+  color: #32323A;
+  margin: auto;
+
+}
+
+/*********************************************************************************************/
+/***********************************ACCEPTED COMMUNITIES PAGINATION STYLE************************************************/
+
+.acceptedPagination
+{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+
+.acceptedPaginationButton
+{
+
+  width: 40px;
+  height: 40px;
+  border: 2px solid #32323A;
+  border-radius: 100%;
+  background-color: #00D636;
+  color: white;
+  cursor: pointer;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 17px;
+
+}
+
+
+.acceptedPaginationButton:hover
+{
+
+  background-color: #32323A;
+
+
+}
+
+/*********************************************************************************************/
+/***********************************ACCEPTED COMMUNITIES PAGINATION STYLE************************************************/
+
+.acceptedPagination
+{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+
+.acceptedPaginationButton
+{
+
+  width: 40px;
+  height: 40px;
+  border: 2px solid #32323A;
+  border-radius: 100%;
+  background-color: #00D636;
+  color: white;
+  cursor: pointer;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 17px;
+
+}
+
+
+.acceptedPaginationButton:hover
+{
+
+  background-color: #32323A;
+
+
+}
+
+
+/*********************************************************************************************/
+/***********************************REFUSED COMMUNITIES PAGINATION STYLE************************************************/
+
+.refusedPagination
+{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+
+.refusedPaginationButton
+{
+
+  width: 40px;
+  height: 40px;
+  border: 2px solid #32323A;
+  border-radius: 100%;
+  background-color: #F91535;
+  color: white;
+  cursor: pointer;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 17px;
+
+}
+
+
+.refusedPaginationButton:hover
+{
+
+  background-color: #32323A;
+
+
+}
+
+
+/*********************************************************************************************/
+/***********************************WAITING COMMUNITIES PAGINATION STYLE************************************************/
+
+.waitingPagination
+{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+
+.waitingPaginationButton
+{
+
+  width: 40px;
+  height: 40px;
+  border: 2px solid #32323A;
+  border-radius: 100%;
+  background-color: #00BCD4;
+  color: white;
+  cursor: pointer;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 17px;
+
+}
+
+
+.waitingPaginationButton:hover
+{
+
+  background-color: #32323A;
+
+
+}
+
+
+/*********************************************************************************************/
+  /***********************************NEW COMMUNITIES PAGINATION STYLE************************************************/
+
+.newPagination
+{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+
+.newPaginationButton
+{
+
+  width: 40px;
+  height: 40px;
+  border: 2px solid #32323A;
+  border-radius: 100%;
+  background-color: #009688;
+  color: white;
+  cursor: pointer;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 17px;
+
+}
+
+
+.newPaginationButton:hover
+{
+
+  background-color: #32323A;
+
+}

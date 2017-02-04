@@ -1,0 +1,246 @@
+body, html
+{
+
+  padding: 0px;
+  margin: 0px;
+    background-color: whitesmoke;
+
+}
+
+
+#admin
+{
+
+  width: 100%;
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 24px;
+
+}
+
+.error{
+
+  margin-bottom: -10px;
+  text-align: center;
+
+}
+
+
+#logInfo
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: 60px;
+
+}
+
+#avatar
+{
+
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 100%;
+    margin-top: -20px;
+
+}
+
+#logInfo form
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+
+}
+
+#logInfo form input
+{
+
+    width: 270px;
+    height: 35px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 3px;
+    border-bottom: 3px solid #00A0E2;
+    padding-left: 15px;
+    color: #00A0E2;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+}
+
+#logInfo form input[type='submit']
+{
+
+    width: 150px;
+    border: 1px solid #00A0E2;
+    border-radius: 2px;
+    border-bottom: 3px solid #00D636;
+    color: white;
+    background-color: #00A0E2;
+    text-align: center;
+    padding-bottom: 1px;
+    cursor: pointer;
+
+}
+
+
+#logInfo form input[type='submit']:hover
+{
+
+   color: magenta;
+   border-bottom: 3px solid magenta;
+
+}
+
+#parameter
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top: 87px;
+
+}
+
+
+.param
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: auto;
+    height: auto;
+
+}
+
+.param button
+{
+
+    width: 80px;
+    height: 80px;
+    border: 1px solid crimson;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+.param button:hover
+{
+
+  width: 65px;
+  height: 65px;
+
+}
+
+.param p
+{
+
+    text-align: center;
+    color: black;
+    font-size: 18px;
+
+}
+
+#paramsForms{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+    position: relative;
+    top: 150px;
+    padding: 20px;
+    margin-bottom: -140px;
+
+
+}
+
+#paramsForms form
+{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+
+#paramsForms form input
+{
+
+    width: 250px;
+    height: 35px;
+    border: 1px solid white;
+    border-bottom: 2px solid #1abc9c;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    color: #1abc9c;
+    background-color: white;
+
+}
+
+
+#paramsForms form input[type='submit']
+{
+
+   background-color: #1abc9c;
+   border: 1px solid #1abc9c;
+   border-radius: 3px;
+   font-size: 18px;
+   text-align: center;
+   cursor: pointer;
+   color: white;
+
+}
+
+#paramsForms form input[type='submit']:hover
+{
+
+   background-color: #2980b9;
+
+}
+
+
+.close
+{
+
+  width: 30px;
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 100%;
+  position: relative;
+  left: 100px;
+  bottom: 15px;
+  cursor: pointer;
+  background-color: red;
+
+}

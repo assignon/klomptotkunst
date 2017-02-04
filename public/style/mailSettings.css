@@ -1,0 +1,173 @@
+body, html
+{
+
+  padding: 0px;
+  margin: 0px;
+
+}
+
+
+#mailMenu
+{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+  height: auto;
+  background-color: #304057;
+
+}
+
+
+
+.mailImg
+{
+
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: relative;
+  left: 100px;
+  top: 20px;
+
+}
+
+
+
+.mailImg a
+{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+
+}
+
+
+
+.mailImg a p
+{
+
+  text-align: center;
+  color: #009688;
+  font-size: 18px;
+  position: relative;
+  bottom: 15px;
+
+}
+
+
+.mailImg a:hover
+{
+
+   color: #177EE5;
+
+}
+
+
+#messageForm
+{
+
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+
+
+.messageCont
+{
+
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border: 1px solid #304057;
+   background-color: #304057;
+   border-radius: 3px;
+
+}
+
+
+.messageCont p
+{
+
+    text-align: center;
+    color: #0078D7;
+
+}
+
+
+#error
+{
+
+  height: auto;
+
+}
+
+.messageCont textarea
+{
+
+   padding: 10px;
+   border: 1px solid #304057;
+   border-bottom: 0px;
+   font-size: 18px;
+
+}
+
+
+#messageForm input[type="text"]
+{
+
+   width: 900px;
+   height: 30px;
+   color: #0078D7;
+   border: 1px solid #0078D7;
+   border-radius: 3px;
+   background: white;
+   text-align: center;
+   font-size: 20px;
+
+}
+
+
+#messageForm input[type="submit"]
+{
+
+   width: 900px;
+   height: 40px;
+   color: white;
+   border: 1px solid #0078D7;
+   border-radius: 3px;
+   background: #0078D7;
+   cursor: pointer;
+
+}
+
+
+#messageForm input[type="submit"]:hover
+{
+
+  background: white;
+  color: #0078D7;
+
+}

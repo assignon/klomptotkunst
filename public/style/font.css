@@ -1,0 +1,26 @@
+@fontface
+{
+
+  font-family: Breeze Personal Use;
+  src: url(fonts/Breeze Personal Use.ttf);
+
+  font-family: Mochary_PERSONAL_USE_ONLY;
+  src: url(fonts/euphorigenic.ttf);
+
+  font-family: Mochary_PERSONAL_USE_ONLY;
+  src: url(fonts/Mochary_PERSONAL_USE_ONLY.ttf);
+}
+
+h2
+{
+
+  font-family: Breeze Personal Use;
+
+}
+
+p
+{
+
+   font-family: euphorigenic;
+
+}
